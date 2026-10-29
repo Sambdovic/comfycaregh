@@ -1,0 +1,1090 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ComfyCare - Ergonomic Cushion in Ghana</title>
+    <meta
+      name="description"
+      content="Memory-foam seat cushions and lumbar pillows for better sitting.Delivery across Ghana."
+    />
+
+    <!-- 1. Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 2. Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- My css files -->
+    <link href="css/token.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Promotional Bar on top -->
+    <div class="promo-bar text-center py-2">
+      Free delivery on orders over GH₵ [AMOUNT] ·
+      <a href="#pricing">Shop the Comfort Set</a>
+    </div>
+
+    <!-- Begining of the navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top site-nav" aria-label="Main">
+      <div class="container-xxl">
+        <!-- LEFT: logo -->
+        <a class="navbar-brand" href="#home">
+          <img src="images/comfycare-logo.svg" alt="ComfyCare" height="40" />
+        </a>
+
+        <!-- RIGHT (on mobile it sits next to the hamburger): cart -->
+        <a href="#checkout" class="cart-btn order-lg-last ms-auto ms-lg-0">
+          <span class="cart-icon">
+            <img src="icons/cart-bag.svg" alt="" width="18" height="18" />
+            <span class="cart-count" data-cart-count>2</span>
+          </span>
+          <span class="cart-text">
+            <small data-cart-items-label>2 items</small>
+            <strong data-cart-total>GH₵ [TOTAL]</strong>
+          </span>
+        </a>
+
+        <!-- Hamburger: only visible on small screens -->
+        <button
+          class="navbar-toggler ms-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+          aria-controls="mainMenu"
+          aria-expanded="false"
+          aria-label="Open menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- CENTRE: links -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="mainMenu"
+        >
+          <ul class="navbar-nav gap-lg-1">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Shop</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- **************** BEG of the hero section ************************ -->
+    <section id="home" class="container-xxl py-4" aria-labelledby="home">
+      <div class="hero">
+        <!-- First layer of the hero -->
+        <picture>
+          <source srcset="images/hero-seat-cushion.webp" type="image/webp" />
+          <img
+            src="images/hero-seat-cushion.webp"
+            class="hero-img"
+            alt="ComfyCare Cooling get seat cushion"
+            width="1920"
+            height="1080"
+            fetchpriority="high"
+          />
+        </picture>
+
+        <!-- Second layer of the hero --- the text -->
+        <div class="hero-content">
+          <p class="cc-pill-tag mb-4">New · Cooling gel technology</p>
+
+          <h1 class="hero-title">
+            Sit Cool.<br />
+            Feel <span class="cc-accent">Comfy.</span>
+          </h1>
+
+          <p class="hero-text">
+            Ergonomic memory-foam seat cushion with a cooling gel layer that
+            relieves pressure on your back, hips, tailbone — all day long.
+          </p>
+
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#pricing" class="btn btn-cc btn-cc-primary">Shop Now →</a>
+            <a href="#product" class="btn btn-cc btn-cc-outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***************** END of the Hero Section ***************** -->
+
+    <!-- *************BEG of Trust strip ************** -->
+    <div class="container-xxl pb-5">
+      <div class="trust-strip">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 g-4">
+          <div class="col">
+            <div class="trust-item">
+              <span class="icon-tile"
+                ><span
+                  class="icon"
+                  style="--icon: url(../icons/truck.svg)"
+                ></span
+              ></span>
+              <div>
+                <strong>Nationwide delivery</strong>
+                <small>[Delivery time] across Ghana</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="trust-item">
+              <span class="icon-tile"
+                ><span
+                  class="icon"
+                  style="--icon: url(../icons/shield-check.svg)"
+                ></span
+              ></span>
+              <div>
+                <strong>Secure Payment</strong>
+                <small>Mobile Money &amp; Card</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="trust-item">
+              <span class="icon-tile"
+                ><span
+                  class="icon"
+                  style="--icon: url(../icons/returns.svg)"
+                ></span
+              ></span>
+              <div>
+                <strong>Easy Returns</strong>
+                <small>[Return Policy] </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="trust-item">
+              <span class="icon-tile"
+                ><span
+                  class="icon"
+                  style="--icon: url(../icons/headset.svg)"
+                ></span
+              ></span>
+              <div>
+                <strong>Friendly Support</strong>
+                <small>[Phone/WhatsApp] </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ********** END of Trust Strip **************** -->
+
+    <!-- **************** BEG of Product Section ************* -->
+    <section id="product" aria-labelledby="product">
+      <div class="container-xxl">
+        <div class="row align-items-center g-4">
+          <!-- BEG Image side LEFT -->
+          <div class="col-lg-6">
+            <div class="product-visual">
+              <picture>
+                <source
+                  srcset="images/product-seat-cushion.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="images/product-seat-cushion.webp"
+                  width="457"
+                  height="548"
+                  alt="ComfyCare cooling gel seat cushion with U-shape cut-out"
+                  loading="lazy"
+                />
+              </picture>
+              <span class="product-label"> U-shape tailbone cut-out </span>
+            </div>
+          </div>
+          <!-- END of image side  -->
+
+          <!-- BEG of text side RIGHT -->
+          <div class="col-lg-6">
+            <p class="cc-eyebrow mb-3">The Product</p>
+            <h2 class="mb-4">Engineered for long days in the chair.</h2>
+            <p class="lead-text mb-4">
+              Long hours of sitting put constant pressure on your hips, lower
+              back and tailbone. The ComfyCare Cooling Gel Seat Cushion spreads
+              that pressure evenly. Its U-shape cut-out lifts weight off the
+              tailbone while the memory foam moulds to your body, and a cooling
+              gel layer keeps the surface fresh on warm days.
+            </p>
+
+            <ul class="feature-list row row-cols-1 row-cols-sm-2 g-3 mb-4">
+              <li class="col">
+                <span
+                  class="icon"
+                  style="--icon: url(../icons/check.svg)"
+                ></span>
+                <span
+                  ><strong>Pressure relief</strong
+                  ><small>Ergonomic U-shape design</small></span
+                >
+              </li>
+              <li class="col">
+                <span
+                  class="icon"
+                  style="--icon: url(../icons/check.svg)"
+                ></span>
+                <span
+                  ><strong>Memory foam</strong
+                  ><small>Moulds and keeps its shape </small></span
+                >
+              </li>
+              <li class="col">
+                <span
+                  class="icon"
+                  style="--icon: url(../icons/check.svg)"
+                ></span>
+                <span
+                  ><strong>Cooling gel layer</strong
+                  ><small>Stays fresh for longer</small></span
+                >
+              </li>
+              <li class="col">
+                <span
+                  class="icon"
+                  style="--icon: url(../icons/check.svg)"
+                ></span>
+                <span
+                  ><strong>Washable cover</strong
+                  ><small>Soft and removable</small></span
+                >
+              </li>
+            </ul>
+
+            <dl class="spec-strip">
+              <div class="dimensions">
+                <dt>Dimensions</dt>
+                <dd>[L × W × H]</dd>
+              </div>
+              <div>
+                <dt>Weight</dt>
+                <dd>[Weight]</dd>
+              </div>
+              <div>
+                <dt>Cover</dt>
+                <dd>[Fabric]</dd>
+              </div>
+            </dl>
+          </div>
+          <!--  End of text side -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ******************** END of Product Section  ******************** -->
+
+    <!-- *************** BEG of Audience block **************** -->
+    <section id="audience" aria-labelledby="audience">
+      <div class="container-xxl">
+        <div class="section-head">
+          <p class="cc-eyebrow mb-3">Who it is for</p>
+          <h2>Made for anyone who sits a lot.</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <article class="info-card h-100">
+              <span class="icon-tile icon-tile--solid">
+                <span
+                  class="icon"
+                  style="--icon: url(../icons/briefcase.svg)"
+                  aria-hidden="true"
+                >
+                </span>
+              </span>
+              <h3>Office workers</h3>
+              <p>
+                Stay comfortable through long days at the desk and back-to-back
+                meetings
+              </p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="info-card h-100">
+              <span class="icon-tile icon-tile--solid">
+                <span
+                  class="icon"
+                  style="--icon: url(../icons/car.svg)"
+                  aria-hidden="true"
+                >
+                </span>
+              </span>
+              <h3>Drivers</h3>
+              <p>
+                Strap the lumbar pillow to your car seat for long drives and
+                traffic.
+              </p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="info-card h-100">
+              <span class="icon-tile icon-tile--solid">
+                <span
+                  class="icon"
+                  style="--icon: url(../icons/book.svg)"
+                  aria-hidden="true"
+                >
+                </span>
+              </span>
+              <h3>Students</h3>
+              <p>
+                Better posture for study sessions, lectures and exam season.
+              </p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="info-card h-100">
+              <span class="icon-tile icon-tile--solid">
+                <span
+                  class="icon"
+                  style="--icon: url(../icons/heart.svg)"
+                  aria-hidden="true"
+                >
+                </span>
+              </span>
+              <h3>Pregnancy & recovery</h3>
+              <p>
+                Extra cushioning when sitting is harder. Check with your doctor
+                first.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ******************* END of Audience Section ***************** -->
+
+    <!-- ****************** BEG of Pricing section ******************* -->
+    <section id="pricing" class="pricing-band" aria-labelledby="pricing">
+      <div class="container-xxl">
+        <div class="section-head">
+          <p class="cc-eyebrow mb-3">Pricing</p>
+          <h2>Pick your comfort.</h2>
+          <p class="section-head_intro">
+            Start with one cushion, or get full support from tailbone to lower
+            back with the set.
+          </p>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
+          <div class="col">
+            <article class="price-card h-100">
+              <div class="price-card__media">
+                <img
+                  src="images/product-seat-cushion.webp"
+                  alt="Gel seat cushion"
+                  width="457"
+                  height="548"
+                  loading="lazy"
+                />
+              </div>
+
+              <div>
+                <h3>Gel Seat Cushion</h3>
+                <p class="price-card__sub">Cooling memory-foam seat support</p>
+              </div>
+
+              <p class="price">GH₵ [PRICE]</p>
+
+              <ul class="price-card__list">
+                <li>U-shape tailbone relief</li>
+                <li>Cooling gel layer</li>
+                <li>Removable cover</li>
+              </ul>
+
+              <button
+                type="button"
+                class="btn btn-cc btn-cc-outline w-100 mt-auto"
+                data-add-to-cart="seat"
+              >
+                Add to cart
+              </button>
+            </article>
+          </div>
+          <div class="col order-first order-lg-0">
+            <article class="price-card price-card--featured h-100">
+              <span class="price-card__badge">Best Value </span>
+              <div class="price-card__media">
+                <img
+                  src="images/product-comfort-set.webp"
+                  alt="Seat cushion and lumbar pillow set on an office chair"
+                  width="800"
+                  height="716"
+                  loading="lazy"
+                />
+              </div>
+              <div>
+                <h3>Comfort Set</h3>
+                <p class="price-card__sub">Seat cushion + lumbar pillow</p>
+              </div>
+              <p class="price">
+                GH₵ [PRICE]
+                <del class="price-old"
+                  ><span class="visually-hidden">Was</span>GH₵[WAS]</del
+                >
+              </p>
+              <ul class="price-card__list">
+                <li>Both cushions, matching black finish</li>
+                <li>Tailbone-to-lower-back support</li>
+                <li>Save [X]% vs buying separately</li>
+              </ul>
+
+              <button
+                type="button"
+                class="btn btn-cc btn-cc-primary w-100 mt-auto"
+                data-add-to-cart="set"
+              >
+                Add to cart
+              </button>
+            </article>
+          </div>
+          <div class="col">
+            <article class="price-card h-100">
+              <div class="price-card__media price-card__media--featured">
+                <img
+                  src="images/product-lumbar-pillow.webp"
+                  alt="Gel seat cushion"
+                  width="457"
+                  height="548"
+                  loading="lazy"
+                />
+              </div>
+
+              <div>
+                <h3>Lumbar Pillow</h3>
+                <p class="price-card__sub">Posture support for any chair</p>
+              </div>
+
+              <p class="price">GH₵ [PRICE]</p>
+
+              <ul class="price-card__list">
+                <li>Contoured lower-spine support</li>
+                <li>Adjustable strap</li>
+                <li>Breathable 3D mesh</li>
+              </ul>
+
+              <button
+                type="button"
+                class="btn btn-cc btn-cc-outline w-100 mt-auto"
+                data-add-to-cart="seat"
+              >
+                Add to cart
+              </button>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ******************* END of Pricing section **************** -->
+
+    <!-- ******************* BEG of Delivery section **************** -->
+    <section id="delivery" aria-labelledby="delivery-title">
+      <div class="container-xxl">
+        <div class="panel-dark">
+          <div class="panel-dark__head">
+            <h2 class="delivery-title">Delivery &amp; payment</h2>
+            <a href="#faq">Read the FAQ <span>→</span></a>
+          </div>
+
+          <dl class="row row-cols-2 row-cols-lg-4 g-4 mb-0">
+            <div class="col">
+              <dt>Where</dt>
+              <dd><strong>[Regions covered]</strong>Across Ghana</dd>
+            </div>
+            <div class="col">
+              <dt>How fast</dt>
+              <dd><strong>[X–X] working days</strong>Accra: [X–X] days</dd>
+            </div>
+            <div class="col">
+              <dt>Cost</dt>
+              <dd><strong>GH₵ [FEE]</strong>Free over GH₵&nbsp;[AMOUNT]</dd>
+            </div>
+            <div class="col">
+              <dt>Pay with</dt>
+              <dd>
+                <ul class="pill-list">
+                  <li class="pill pill--accent">Mobile Money</li>
+                  <li class="pill">Card</li>
+                  <li class="pill">Pay on delivery</li>
+                </ul>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- ******************* END of Delivery section **************** -->
+
+    <!-- ******************* BEG of Review section **************** -->
+    <section id="reviews" aria-labelledby="review-title">
+      <div class="container-xxl">
+        <div class="reviews-head">
+          <div>
+            <p class="cc-eyebrow mb-3">Reviews</p>
+            <h2 class="reviews-title">What our customers say.</h2>
+          </div>
+          <dl class="stats">
+            <div>
+              <dt>happy customers</dt>
+              <dd>[X]+</dd>
+            </div>
+            <div>
+              <dt>average rating</dt>
+              <dd>[4.X]/5</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
+          <div class="col">
+            <figure class="review-card h-100">
+              <span class="stars" role="img" aria-label="Rated 5 out of 5"
+                >★★★★★</span
+              >
+              <blockquote>
+                <p>[Real customer quote about the seat cushion.]</p>
+              </blockquote>
+              <figcaption>
+                <span class="avatar" aria-hidden="true">KA</span>
+                <span>
+                  <strong>[First Name + initial]</strong>
+                  <small>[City] · Gel Seat Cushion</small>
+                </span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="review-card review-card--accent h-100">
+              <span class="stars" role="img" aria-label="Rated 5 out of 5"
+                >★★★★★</span
+              >
+              <blockquote>
+                <p>[Real customer quote about the comfort set.]</p>
+              </blockquote>
+              <figcaption>
+                <span class="avatar" aria-hidden="true">OA</span>
+                <span>
+                  <strong>[First Name + initial]</strong>
+                  <small>[City] · Comfort Set</small>
+                </span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure class="review-card h-100">
+              <span class="stars" role="img" aria-label="Rated 5 out of 5"
+                >★★★★★</span
+              >
+              <blockquote>
+                <p>[Real customer quote about the lumbar pillow.]</p>
+              </blockquote>
+              <figcaption>
+                <span class="avatar" aria-hidden="true">DG</span>
+                <span>
+                  <strong>[First Name + initial]</strong>
+                  <small>[City] · Lumbar Pillow</small>
+                </span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ******************* END of Review section **************** -->
+
+    <!-- ******************* BEG of Checkout section **************** -->
+    <section
+      id="checkout"
+      class="checkout-band"
+      aria-labelledby="checkout-title"
+    >
+      <div class="container-xxl">
+        <h2 id="checkout-title" class="mb-5">Checkout</h2>
+        <div class="row g-4 align-items-start">
+          <!-- Begining of the form -->
+          <div class="col-lg-7">
+            <form id="checkout-form" class="checkout-form" novalidate>
+              <fieldset>
+                <legend>1. Contact</legend>
+                <div class="mb-3">
+                  <label for="co-name" class="form-label">Full name</label>
+                  <input
+                    type="text"
+                    id="co-name"
+                    name="name"
+                    class="form-control"
+                    autocomplete="name"
+                    required
+                  />
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="co-email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      id="co-email"
+                      class="form-control"
+                      name="email"
+                      autocomplete="email"
+                      placeholder="your@example.com"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please enter a valid email address.
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="co-phone" class="form-label">Phone</label>
+                    <input
+                      type="tel"
+                      id="co-phone"
+                      class="form-control"
+                      name="phone"
+                      autocomplete="tel"
+                      inputmode="tel"
+                      placeholder="024 123 4567"
+                      pattern="^(\+233|0)[0-9 ]{9,12}$"
+                      aria-describedby="co-phone-help"
+                      required
+                    />
+                    <div id="co-phone-help" class="form-text">
+                      We will text you delivery updates.
+                    </div>
+                    <div class="invalid-feedback">
+                      Enter a Ghana number e.g. 024 123 4567
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>2. Delivery</legend>
+                <div class="mb-3">
+                  <label for="co-address" class="form-label">Address</label>
+                  <input
+                    type="text"
+                    id="co-address"
+                    name="address"
+                    class="form-control"
+                    autocomplete="street-address"
+                    placeholder="Street, house number, landmark."
+                    required
+                  />
+                  <div class="invalid-feedback">Please enter your address.</div>
+                </div>
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="co-city" class="form-label">City</label>
+                    <input
+                      type="text"
+                      id="co-city"
+                      class="form-control"
+                      name="city"
+                      autocomplete="address-level2"
+                      placeholder="Koforidua"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please enter a valid city.
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <label for="co-region" class="form-label">Region</label>
+                    <select
+                      id="co-region"
+                      name="region"
+                      class="form-select"
+                      autocomplete="address-level1"
+                      required
+                    >
+                      <option value="" selected disabled>Choose…</option>
+                      <option>Greater Accra</option>
+                      <option>Ashanti</option>
+                      <option>Ahafo</option>
+                      <option>Bono</option>
+                      <option>Bono East</option>
+                      <option>Central</option>
+                      <option>Eastern</option>
+                      <option>North East</option>
+                      <option>Northern</option>
+                      <option>Oti</option>
+                      <option>Savannah</option>
+                      <option>Upper East</option>
+                      <option>Upper West</option>
+                      <option>Volta</option>
+                      <option>Western</option>
+                      <option>Western North</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please choose your region.
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+
+              <fieldset>
+                <legend>3. Payment</legend>
+                <div class="pay-options">
+                  <label class="pay-option">
+                    <input
+                      type="radio"
+                      name="payment"
+                      value="momo"
+                      class="form-check-input"
+                      checked
+                      required
+                    />
+                    <span
+                      class="icon"
+                      style="--icon: url(../icons/mobile-money.svg)"
+                      aria-hidden="true"
+                    ></span>
+                    Mobile Money
+                  </label>
+                </div>
+                <div class="pay-options">
+                  <label class="pay-option">
+                    <input
+                      type="radio"
+                      name="payment"
+                      value="card"
+                      class="form-check-input"
+                    />
+                    <span
+                      class="icon"
+                      style="--icon: url(../icons/credit-card.svg)"
+                      aria-hidden="true"
+                    ></span>
+                    Debit / credit card
+                  </label>
+                </div>
+                <div class="pay-options">
+                  <label class="pay-option">
+                    <input
+                      type="radio"
+                      name="payment"
+                      value="cod"
+                      class="form-check-input"
+                    />
+                    <span
+                      class="icon"
+                      style="--icon: url(../icons/truck.svg)"
+                      aria-hidden="true"
+                    ></span>
+                    Pay on delivery
+                  </label>
+                </div>
+              </fieldset>
+
+              <p class="small text-muted mb-3">
+                We use your details only to process and deliver your order.
+                <a href="#privacy">Privacy policy</a>
+              </p>
+
+              <button type="submit" class="btn btn-cc btn-cc-primary w-100">
+                Place order · <span>GH₵&nbsp;[TOTAL]</span>
+              </button>
+            </form>
+          </div>
+          <div class="col-lg-5">
+            <aside class="order-summary" aria-labelledby="summary-title">
+              <h3 id="summary-title">Order summary</h3>
+              <div class="order-lines" data-cart-lines>
+                <div class="order-line">
+                  <span class="order-line__img"
+                    ><img
+                      src="images/product-seat-cushion.webp"
+                      alt=""
+                      width="548"
+                      height="457"
+                  /></span>
+                  <span class="order-line__name"
+                    ><strong>Gel seat cushion</strong><small>Qty 1</small></span
+                  >
+                  <strong>GH₵&nbsp;[PRICE]</strong>
+                </div>
+                <div class="order-line">
+                  <span class="order-line__img"
+                    ><img
+                      src="images/product-lumbar-pillow.webp"
+                      alt=""
+                      width="548"
+                      height="457"
+                  /></span>
+                  <span class="order-line__name"
+                    ><strong>Lumbar pillow</strong><small>Qty 1</small></span
+                  >
+                  <strong>GH₵&nbsp;[PRICE]</strong>
+                </div>
+              </div>
+              <form class="promo" aria-label="Promo code">
+                <label for="promo-code" class="visually-hidden"
+                  >Promo code</label
+                >
+                <input
+                  type="text"
+                  id="promo-code"
+                  class="form-control"
+                  placeholder="Promo code"
+                  autocomplete="off"
+                />
+                <button type="button" class="btn btn-light">Apply</button>
+              </form>
+
+              <dl class="totals">
+                <div>
+                  <dt>Subtotal</dt>
+                  <dd data-cart-subtotal>GH₵&nbsp;[SUBTOTAL]</dd>
+                </div>
+                <div>
+                  <dt>Delivery</dt>
+                  <dd data-cart-delivery>GH₵&nbsp;[FEE]</dd>
+                </div>
+                <div class="totals__grand">
+                  <dt>Total</dt>
+                  <dd data-cart-total aria-live="polite">GH₵&nbsp;[TOTAL]</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ******************* END of Checkout section **************** -->
+
+
+
+
+    <!-- ******************* BEG of FAQ section **************** -->
+    <section id="faq" aria-labelledby="faq-title">
+      <div class="container-xxl faq-wrap">
+        <div class="section-head">
+          <p class="cc-eyebrow mb-3">FAQ</p>
+          <h2 id="faq-title">Questions, answered.</h2>
+        </div>
+        <div class="accordion faq" id="faqList">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq1"
+                aria-expanded="true"
+                aria-controls="faq1"
+              >
+                How long does delivery take?
+              </button>
+            </h3>
+            <div id="faq1" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                Orders in Accra arrive in [X–X] working days. Elsewhere in
+                Ghana, allow [X–X] working days. You'll get an SMS when your
+                order is on its way.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2"
+                aria-expanded="false"
+                aria-controls="faq2"
+              >
+                How much does delivery cost?
+              </button>
+            </h3>
+            <div id="faq2" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Delivery is GH₵&nbsp;[FEE], and free on orders over
+                GH₵&nbsp;[AMOUNT].
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3"
+                aria-expanded="false"
+                aria-controls="faq3"
+              >
+                Which payment methods do you accept?
+              </button>
+            </h3>
+            <div id="faq3" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Mobile Money, debit or credit card, and pay on delivery [where available].
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq4"
+                aria-expanded="false"
+                aria-controls="faq4"
+              >
+                Can I wash the covers?
+              </button>
+            </h3>
+            <div id="faq4" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                Yes. The covers zip off for washing. [Washing instructions.] Don't wash the foam itself.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq5"
+                aria-expanded="false"
+                aria-controls="faq5"
+              >
+                Will it fit my chair or car seat?
+              </button>
+            </h3>
+            <div id="faq5" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                The seat cushion fits most office, dining and car seats ([dimensions]). 
+                The lumbar pillow's adjustable strap fits most chair backs and car seats. 
+                *(B asks "Will the lumbar pillow fit my car seat?", C asks "Will the set fit my office chair?" — same idea.)
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#faq6"
+                aria-expanded="false"
+                aria-controls="faq6"
+              >
+                What if it isn't right for me?
+              </button>
+            </h3>
+            <div id="faq6" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                [Return / exchange policy — e.g. number of days and condition.]
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="faq-more">
+          Still have a question?
+          <a href="https://wa.me/233242538797?text=Hello%20ComfyCare" target="_blank" rel="noopener">
+        Chat with us on WhatsApp
+          </a>
+        </p>
+      </div>
+    </section>
+    <!-- ******************* END of FAQ section **************** -->
+    
+
+
+    <!-- ******************* BEG of FOOTER section **************** -->
+    <section class="site-footer">
+      <div class="container-xxl">
+        <div class="row gx-4">
+          <div class="col-12 col-lg-3">
+            <a href="#home" aria-label="ComfyCare back to the top">
+              <img src="images/comfycare-logo.svg" alt="" width="100" height="40">
+            </a>
+            <p class="site-footer__tagline">
+              Ergonomic cushions for better sitting — at work, at home and on the road.
+            </p>
+          </div>
+
+
+          <!-- links columns -->
+          <nav class="col-6 col-sm-4 col-lg-2" aria-labelledby="ft-shop">
+            <h2 id="ft-shop" class="site-footer__title">Shop</h2>
+            <ul class="site-footer__links">
+              <li><a href="#pricing">Seat cushion</a></li>
+              <li><a href="#pricing">Lumbar Pillow</a></li>
+              <li><a href="#pricing">Comfort Set</a></li>
+            </ul>
+          </nav>
+
+          <nav class="col-6 col-sm-4 col-lg-2" aria-labelledby="ft-help">
+            <h2 id="ft-help" class="site-footer__title">Help</h2>
+            <ul class="site-footer__links">
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#delivery">Delivery</a></li>
+              <li><a href="#faq">Returns</a></li>
+            </ul>
+          </nav>
+
+          <nav class="col-6 col-sm-4 col-lg-2" aria-labelledby="ft-company">
+            <h2 id="ft-company" class="site-footer__title">Company</h2>
+            <ul class="site-footer__links">
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+          <!-- Newletter part -->
+
+          <div class="col-12 col-lg-3">
+            <h2 class="site-footer__title" id="ft_news">Get comfort tips &amp; offers</h2>
+            <form class="newsletter" id="nl-form" aria-labelledby="ft-news" novalidate>
+              <label for="nl-email" class="visually-hidden">Email address</label>
+              <input type="email" id="nl-email" name="email" class="form-control"
+                      placeholder="Your email" autocomplete="email" required>
+              <div class="invalid-feedback">
+                      Please enter a valid email address.
+              </div>
+              <button type="submit" class="btn btn-cc-primary">Join</button>
+            </form>
+            <p class="site-footer__note">Occasional emails only. Unsubscribe anytime.</p>
+          </div>
+
+        </div>
+        <div class="site-footer__bottom">
+          <p>© <span id="year">2026</span> ComfyCare. All rights reserved.</p>
+          <p>[Address] · <a href="tel:+233242538797">[Phone]</a> · <a href="mailto:comfycaregh.com">[Email]</a></p>
+
+        </div>
+      </div>
+
+    </section>
+    <!-- ******************* END of FOOTER section **************** -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
